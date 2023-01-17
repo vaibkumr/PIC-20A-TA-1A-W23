@@ -1,1 +1,4 @@
 *.class
+*.xml
+.vscode
+.DS_Store
