@@ -1,4 +1,4 @@
-# PIC 16A Discussion 1A
+# PIC 20A Discussion 1A
 
 ## Discussions 
 | **Days**             | **Time**     | **Location**      |
