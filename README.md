@@ -8,7 +8,7 @@
 ## Office Hours
 | **Days**             | **Time**      | **Location**                |
 |----------------------|---------------|-----------------------------|
-| Tuesday and Thursday | 9:00am-9:45am | Boelter Hall 2000 (PIC Lab) |
+| Tuesday and Thursday | 9:00am-9:45am | MS 2000 (PIC Lab) |
 
 ## Contact
 [vaibhavk@g.ucla.edu](mailto:vaibhavk@g.ucla.edu?subject=PIC20A) 
