@@ -111,6 +111,7 @@ class Conversions {
         s = (short) i;  // an explicit conversion int   --> short occurs
         b =  (byte) s;  // an explicit conversion short --> byte  occurs
 
+
         System.out.println(i); //        2^16 + 2^8 + 2^4 == 65808
         System.out.println(s); //               2^8 + 2^4 == 272
         System.out.println(b); //                     2^4 == 16

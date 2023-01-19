@@ -16,7 +16,7 @@ class ControlFlow {
             return;
         }
 
-        if (N == 1) {
+        else if (N == 1) {
             System.out.println(N); return;
         }
         else {
@@ -46,19 +46,24 @@ class ControlFlow {
     public static void printDiamond(int N) {
         if (N < 1) { return; }
 
+        //Upper half
         for (int i = 1; i < N; ++i) {
+            // Left spaces
             for (int j = 0; j < N - i; ++j) {
                 System.out.print(' ');
             }
+            // Stars
             for (int j = 0; j < 2*i - 1; ++j) {
                 System.out.print('*');
             }
+            // Right spaces
             for (int j = 0; j < N - i; ++j) {
                 System.out.print(' ');
             }
             System.out.print('\n');
         }
 
+        //Lower half
         for (int i = N; i >= 1; --i) {
             for (int j = 0; j < N - i; ++j) {
                 System.out.print(' ');

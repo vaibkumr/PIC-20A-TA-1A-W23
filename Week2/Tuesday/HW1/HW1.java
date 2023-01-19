@@ -1,6 +1,13 @@
 class HW1 {
     public static void main(String args[]) {
+        // int[][] twoD_arr = new int[10][20];
+
         System.out.println("TEST YOUR CODE!!!");
+        int input_s[][] = {
+            {1, 2, 3},
+            {3, 4, 5},
+            {1, 2, 3},
+        };
     }
 
 
@@ -92,7 +99,7 @@ class HW1 {
      * 
      * For example,
      *     java.util.Arrays.equals(firstPrimes(-1), null)
-     *     java.util.Arrays.equals(firstPrimes( 0), new int[0])
+     *     java.util.Arrays.equals(firstPrimes(0), new int[0])
      *     java.util.Arrays.equals(
      *         firstPrimes(8), new int[] {2, 3, 5, 7, 11, 13, 17, 19}
      *     )
