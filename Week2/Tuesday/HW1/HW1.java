@@ -1,13 +1,24 @@
 class HW1 {
     public static void main(String args[]) {
-        // int[][] twoD_arr = new int[10][20];
-
         System.out.println("TEST YOUR CODE!!!");
-        int input_s[][] = {
-            {1, 2, 3},
-            {3, 4, 5},
-            {1, 2, 3},
-        };
+
+        // int[] testcase1 = new int[]{-1, 1};
+        // int[] testcase2 = new int[]{};
+        // double res = average(new int[]{0, 0, 0});
+        // System.out.print(res);
+
+        // res = average(testcase1);
+        // System.out.print(res);
+        
+        // double res = average(testcase1);
+        // System.out.print(res); 
+
+        // int testcase[][] = { {1, 2} , { 4, 5} }; //BAD
+        // int testcase[][] = { 
+        //     {1, 2} , 
+        //     { 4, 5} 
+        // }; //GOOD
+
     }
 
 
@@ -43,6 +54,8 @@ class HW1 {
      * @return a string storing the binary representation of n
     */
     public static String binary(int n) {
+
+
         return "";
     }
 

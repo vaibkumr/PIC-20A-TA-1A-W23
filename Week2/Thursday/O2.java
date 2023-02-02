@@ -1,23 +1,23 @@
-class Objects {
+class O2 {
     /*
       First, we learned about primitive data types:
       boolean, byte, short, int, long, float, double, char.
 
-      Other data types are not primitive. They are said to be "objects".
-      The variables corresponding to objects act as references.
-      This means that primitive data types and objects
+      Other data types are not primitive. They are said to be "O2".
+      The variables corresponding to O2 act as references.
+      This means that primitive data types and O2
       behave quite differently and a detailed discussion is necessary.
     */
     public static void main(String[] args) {
         arrays();
-        objects();
-        functionsAndObjects();
+        O2();
+        functionsAndO2();
     }
 
     public static void arrays() {
         /*
           ARRAYS
-          To facilitate our discussion of objects,
+          To facilitate our discussion of O2,
           we need an explicit example of an object.
           In this snippet we'll use arrays.
 
@@ -202,11 +202,11 @@ class Objects {
     }
 
 
-    public static void objects() {
+    public static void O2() {
         /*
-          OBJECTS
-          Now that we have arrays, we can highlight subtle issues involving objects.
-          All of these examples stem from the fact that variables *reference* objects.
+          O2
+          Now that we have arrays, we can highlight subtle issues involving O2.
+          All of these examples stem from the fact that variables *reference* O2.
         */
 
         int[]   x;     int[] y;
@@ -232,9 +232,9 @@ class Objects {
         System.out.println(x[0]);
 
         // EXAMPLE 4
-        outer = new int[][] { {1} };    // 2 new objects created, one storing a reference to the other
-        inner = outer[0];               // no new objects created
-        inner[0] = 2;                   // edits one of the objects created originally
+        outer = new int[][] { {1} };    // 2 new O2 created, one storing a reference to the other
+        inner = outer[0];               // no new O2 created
+        inner[0] = 2;                   // edits one of the O2 created originally
         System.out.println(outer[0][0]);
 
         // EXAMPLE 5
@@ -246,7 +246,7 @@ class Objects {
         // EXAMPLE 6
         x = new int[] {1};              // new object created, x references it
         y = new int[] {1};              // new object created, y references it
-        System.out.println(x != y);     // true since x and y reference different objects
+        System.out.println(x != y);     // true since x and y reference different O2
 
         // EXAMPLE 7
         x = new int[] {1};              // new object created, x references it
@@ -257,14 +257,14 @@ class Objects {
         String s1 = new String(new char[] { 'e', 'g' }); // new String object created
         String s2 = s1;                                  // s2 references the same object as s1
         System.out.println(s1 == s2);
-        s2 += '.';                      // because String objects are immutable,
+        s2 += '.';                      // because String O2 are immutable,
                                         // this forces the creation of a new object
         System.out.println(s1);         // s1 references the first created object
         System.out.println(s2);         // s2 references the newly created object
     }
 
 
-    public static void functionsAndObjects() {
+    public static void functionsAndO2() {
         /*
           My experience teaching PIC has shown me that many students
           do not have a strong understanding of function calls.
@@ -337,7 +337,7 @@ class Objects {
         g(i, arr);                            // i is not changed; object referenced by arr is changed
         System.out.println(i + " " + arr[0]);
 
-        // One can return references to objects.
+        // One can return references to O2.
         // Any object reference can reference an object called 'null'.
         arr = h(8);  System.out.println(java.util.Arrays.toString(arr));
         arr = h(0);  System.out.println(java.util.Arrays.toString(arr));
