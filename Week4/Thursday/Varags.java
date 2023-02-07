@@ -28,7 +28,7 @@ public class Varags {
         Varags obj = new Varags();
         // obj.printVals(1);
         // obj.printVals(1, 2, 3);
-        obj.printVals();
+        obj.add();
         // obj.printVals(1.1, 1.2, 1.3);
     }
 }
