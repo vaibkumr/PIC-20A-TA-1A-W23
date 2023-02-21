@@ -1,5 +1,7 @@
 public class TestInterfaces implements MyInterface{
 
+    int a = 10;
+
     @Override
     public void defaultMethodOverride(){
         System.out.println("overridden!");
@@ -9,18 +11,19 @@ public class TestInterfaces implements MyInterface{
     public void method2(){
         System.out.println("method2!");
     }
+
     
     @Override
     public void method1(){
-        System.out.println("method1!"+this.a);
+        System.out.println("method1! " + this.data);
     }    
 
     public static void main(String[] args){
         TestInterfaces obj = new TestInterfaces();
         obj.method1();
-        obj.method2();
-        obj.defaultMethod();
-        obj.defaultMethodOverride();
+        // obj.method2();
+        // obj.defaultMethod();
+        // obj.defaultMethodOverride();
     }
     
 }
@@ -28,9 +31,12 @@ public class TestInterfaces implements MyInterface{
 
 public interface MyInterface {
 
-    int a = 10;
-    //Try things here... private methods? concrete methods? data members?
-    abstract void method2(); 
+    int data = 10;
+    
+    // //Try things here... private methods? concrete methods? data members?
+
+    abstract void method2(); //abstract methods MUST override
+
     void method1(); //all interface methods are implicitly abstract
 
     default void defaultMethod(){
