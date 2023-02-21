@@ -2,3 +2,5 @@
 *.xml
 .vscode
 .DS_Store
+*.temp
+temp

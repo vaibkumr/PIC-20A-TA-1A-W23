@@ -1,4 +1,13 @@
 public class AbstractClasses {
+    int n = 10;
+    {
+        int n=10;
+        n++;
+        System.out.print("Ok");
+    }
+    static {
+
+    }
     public static void main(String args[]){
         // Art a = new Art(); //can't have objects for abstract class
 
@@ -9,6 +18,8 @@ public class AbstractClasses {
         Painting p = new Painting();
         System.out.println(p.type());
         System.out.println(p.price());
+
+        
 
 
     }
@@ -26,6 +37,8 @@ abstract class Art{ //an abstract class
 class Music extends Art{
 
     public String type(){
+        int x = 100;
+        x += 10;
         return "Music by Wolfgang Mozart";
     }
 

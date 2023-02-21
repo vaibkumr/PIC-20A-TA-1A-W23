@@ -1,7 +1,7 @@
 public class TestBench {
     public static void main(String[] args){
-        testHashFunctions();
-        testEquals();
+        // testHashFunctions();
+        // testEquals();
         testToString();
     }
     
@@ -27,9 +27,10 @@ public class TestBench {
 
     public static void testToString(){
         Child c1 = new Child();
-        Child c2 = new Child(3, 2, 1);
         System.out.println(c1);
-        System.out.println(c2);
+        
+        // Child c2 = new Child(3, 2, 1);
+        // System.out.println(c2);
 
     }    
 
