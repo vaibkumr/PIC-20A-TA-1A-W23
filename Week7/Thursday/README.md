@@ -32,3 +32,7 @@
     - We have 2^8 * 2^8 * 2^8 = 16,777,216 colors!!
     - [The human eye can discriminate up to ten million colors](https://en.wikipedia.org/wiki/Color_depth)
 - Some named color constants, color.BLUE, color.PINK, color.BLACK etc...
+
+
+
+Good Resource: https://web.mit.edu/6.005/www/sp14/psets/ps4/java-6-tutorial/components.html
