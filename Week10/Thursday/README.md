@@ -5,7 +5,7 @@
 ## Read every single line (especially the comments) of every single .java file on bruinlearn, that's all the material you need. 
 
 ## A non-exhaustive list of important topics:
-- **Please note I DO NOT have the access to final exam, I haven't seen it, all the following topics are my guess/understanding of important topics after a conversion with Micheal. Please make sure to read other things apart from the following, if you don't then this list is useless**
+- **Please note I DO NOT have the access to final exam, I haven't seen it, all the following topics are my guess/understanding of important topics after a conversation with Micheal. Please make sure to read other things apart from the following, if you don't then this list is useless**
 
 1. type conversions
 2. array/object memory references -- see midterm last question and array question.
